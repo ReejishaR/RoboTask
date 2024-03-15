@@ -1,0 +1,61 @@
+.card-container {
+
+    background: linear-gradient(to right, deeppink, rgb(0, 38, 255));
+    width: 100%;
+}
+
+.robo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.robo-header h2 {
+    font-family: Arial;
+    font-size: 34px;
+    color: wheat;
+}
+
+.search-robo {
+    background-color: rgb(158, 233, 208);
+    padding: 10px;
+    outline: none;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 90px;
+    padding: 80px;
+}
+
+.robo-card {
+    width: 300px;
+    margin-top: 20px;
+    box-shadow: rgba(209, 217, 230, 0.3) 3px 3px 32.9px;
+    background-color: aquamarine;
+}
+
+.robo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.robo-image p {
+    margin-top: auto;
+}
+
+.robo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.robo p{
+    margin-top: auto;
+}
